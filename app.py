@@ -6,7 +6,7 @@ from utils import format_number
 import graficos
 
 st.set_page_config(layout='wide')
-st.title("Dashboard de Vendas :shopping_trolley:")
+st.title("Dashboard de Vendas 🛒")
 
 st.sidebar.title('Filtro de Vendedores')
 
