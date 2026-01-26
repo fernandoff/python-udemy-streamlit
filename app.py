@@ -6,9 +6,9 @@ from utils import format_number
 import graficos
 
 st.set_page_config(layout='wide')
-st.title("Dashboard de Vendas 🛒")
+st.title("Dashboard de Vendas 🛒 - Python, Pandas e Streamlit")
 
-st.sidebar.title('Filtro de Vendedores')
+st.sidebar.title("Filtro de Vendedores")
 
 filtro_vendedor = st.sidebar.multiselect(
     'Vendedores',
